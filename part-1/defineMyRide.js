@@ -9,7 +9,7 @@ var myRide = {
 	},
 
 	maxSpeed : function (){
-		return gear * 15;
+		return this.gear * 15;
 	},
 
 	//YOUR CODE HERE
