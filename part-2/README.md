@@ -26,7 +26,7 @@ var myObj = {
 	greeting : "Hello",
 
 	greet : function(){
-		console.log(greeting);
+		console.log(this.greeting);
 	}
 }
 ````
