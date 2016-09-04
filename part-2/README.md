@@ -1,13 +1,13 @@
 #Functions & Methods Exercises Part 2
 
-##Coding Boxes
+##Defining your "boxes"
 
 Two "box" object variables have been instantiated for you, creatively named, `boxOne` and `boxTwo`. 
 
 **The objects were created to have random properties.**
 Outside of creating methods for these box objects, do not change any of the properties assigned to it. 
 
-Note : Methods are function properties of objects.
+_Note : Methods are function properties of objects. Pay attention to their location relative to the object `myObj`_
 
 Function : 
 ````
@@ -45,7 +45,7 @@ var myObj = {
 * [ ] create a function named "addItem" that takes a string argument, adds it to the box's "contents" array, and logs the updated contents of the box.
 
 ##EXTRA CREDIT
-*[ ] create a function named "dump" that takes two box objects as arguments, and transfers all the contents of the box with less contents into the other box's contents.
+* [ ] create a function named "dump" that takes two box objects as arguments, and transfers all the contents of the box with less contents into the other box's contents.
 
-*[ ] create a function named "smash" that takes a box object as an argument, and reduces its length, width, height, and mass by a valid random amount (a dimension cannot be < 0). 
+* [ ] create a function named "smash" that takes a box object as an argument, and reduces its length, width, height, and mass by a valid random amount (a dimension cannot be < 0). 
  
