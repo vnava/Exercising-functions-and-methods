@@ -45,7 +45,7 @@ var myObj = {
 * [ ] create a function named "addItem" that takes a string argument, adds it to the box's "contents" array, and logs the updated contents of the box.
 
 ##EXTRA CREDIT
-* [ ] create a function named "dump" that takes two box objects as arguments, and transfers all the contents of the box with less contents into the other box's contents.
+* [ ] create a function named "dump" that takes two box objects as arguments, and transfers all the contents of the box with fewer contents into the other box's contents. One box will have an empty "contents" array, and the other will have all the items in it.
 
 * [ ] create a function named "smash" that takes a box object as an argument, and reduces its length, width, height, and mass by a valid random amount (a dimension cannot be < 0). 
  
