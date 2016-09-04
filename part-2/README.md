@@ -15,7 +15,7 @@ var myObj = {
 	greeting : "Hello",
 }
 
-function greet (){
+var greet = function (){
 	console.log(myObj.greeting);
 }
 ````
